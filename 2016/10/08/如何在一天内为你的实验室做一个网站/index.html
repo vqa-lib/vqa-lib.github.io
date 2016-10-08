@@ -100,13 +100,14 @@
 
 宣传与分享。向外界展示自己的研究成果，而不用去在意水平的高低。高水平的研究自然能增光添彩，入门水平的研究也能为后来的新人指明道路。
 记录与传承。每个人在实验室都会呆至少两年，这期间做过的汇报、实验、研究的结果都值得记录下来，这样不仅能为后来人开展扩展性的研究铺好道路，也能避免资料随着人员流动而丢失。">
+<meta property="og:image" content="http://oepryel6r.bkt.clouddn.com/%E6%8D%95%E8%8E%B7.PNG">
 <meta property="og:image" content="http://7xnuu7.com1.z0.glb.clouddn.com/bloghexo4.jpg">
 <meta property="og:image" content="http://7xnuu7.com1.z0.glb.clouddn.com/bloghexo5.png">
 <meta property="og:image" content="http://7xnuu7.com1.z0.glb.clouddn.com/bloghexo6.png">
 <meta property="og:image" content="http://7xnuu7.com1.z0.glb.clouddn.com/bloghexo7.png">
 <meta property="og:image" content="http://7xnuu7.com1.z0.glb.clouddn.com/bloghexo9.jpg">
 <meta property="og:image" content="http://7xnuu7.com1.z0.glb.clouddn.com/blogwrite2.png">
-<meta property="og:updated_time" content="2016-10-08T05:24:34.494Z">
+<meta property="og:updated_time" content="2016-10-08T05:54:32.371Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何在一天内为你的实验室做一个网站">
 <meta name="twitter:description" content="author: Hui Zhang
@@ -114,7 +115,7 @@
 
 宣传与分享。向外界展示自己的研究成果，而不用去在意水平的高低。高水平的研究自然能增光添彩，入门水平的研究也能为后来的新人指明道路。
 记录与传承。每个人在实验室都会呆至少两年，这期间做过的汇报、实验、研究的结果都值得记录下来，这样不仅能为后来人开展扩展性的研究铺好道路，也能避免资料随着人员流动而丢失。">
-<meta name="twitter:image" content="http://7xnuu7.com1.z0.glb.clouddn.com/bloghexo4.jpg">
+<meta name="twitter:image" content="http://oepryel6r.bkt.clouddn.com/%E6%8D%95%E8%8E%B7.PNG">
 
 
 
@@ -400,8 +401,7 @@
 <li><a href="https://www.zybuluo.com/" target="_blank" rel="external">cmd markdown编辑器</a>：github pages的内容需要用markdown语言编写，markdown是一种标记语言，兼容性极强，可以用所有文本编辑器打开，因为是纯文本语言，可以让你专注于文字而不是排版，而且格式转换方便，Markdown 的文本你可以轻松转换为 html、电子书，同时还有极好的可读性。cmd markdown编辑器是一款在线markdown编辑器，带有常用工具栏，可以导入导出本地文件，云端存储，很方便。</li>
 <li><a href="https://shadowsocks.com/" target="_blank" rel="external">科学上网</a>：有备无患。</li>
 </ul>
-<h2 id="架构简述"><a href="#架构简述" class="headerlink" title="架构简述"></a>架构简述</h2><p>简单的说明一下这个站点的架构</p>
-<p>站点域名为vqa-lib.github.io的实际站点，由Github为我们托管；<br>静态网页的内容由Hexo框架为我们生成，同时需要一些第三方插件来丰富站点的功能；<br>站点的主题使用了NexT主题，相比于原生主题更加简洁大方；<br>为了便于多人共同编辑、维护站点，专门建立了Github Orgnization：vqa-lib，在vqa-lib中包含三个代码库：</p>
+<h2 id="架构简述"><a href="#架构简述" class="headerlink" title="架构简述"></a>架构简述</h2><p>简单的说明一下这个站点的架构<br><img src="http://oepryel6r.bkt.clouddn.com/%E6%8D%95%E8%8E%B7.PNG" alt=""><br>站点域名为vqa-lib.github.io的实际站点，由Github为我们托管；<br>静态网页的内容由Hexo框架为我们生成，同时需要一些第三方插件来丰富站点的功能；<br>站点的主题使用了NexT主题，相比于原生主题更加简洁大方；<br>为了便于多人共同编辑、维护站点，专门建立了Github Orgnization：vqa-lib，在vqa-lib中包含三个代码库：</p>
 <ul>
 <li>vqa-lib.github.io，对应站点静态网页内容</li>
 <li>Hexo，对应生成内容的框架，使用markdown编写的描述各个页面内容的md文件都在这个库中，同时包含theme内容</li>
@@ -464,6 +464,21 @@ hexo generate
 (若要本地预览就先执行 hexo server)
 hexo deploy
 </code></pre><p>刷新你的站点，就可以看到新鲜出炉的文章了。<br>最后别忘了，做了修改之后都要做一次git push来同步远端。</p>
+<p><strong>维护人员</strong><br>对于维护人员来说就比较简单了。</p>
+<blockquote>
+<p>第一步：注册github账号，申请加入Team<br>第二步：安装Node.js和Github Desktop for windows，配置git<br>第三步：安装配置Hexo<br>这几步和管理员角色的前几步操作相同。不再赘述。</p>
+<p>第四步：同步本地内容和远端内容</p>
+</blockquote>
+<p>在git shell中输入</p>
+<pre><code>git init #初始化本地仓库
+git remote add origin your_hexo_repo_url  #添加远端
+git reset --hard
+git clean -f -d    #把本地初始化的内容清理掉
+git pull your_hexo_repo_url master  #将远端内容拉取到本地，同步完成
+git submodule init  #初始化子模块本地仓库
+git submodule update  #更新子模块
+npm install hexo-deployer-git --save  #安装git 模块
+</code></pre><p>上述步骤只需要进行一次。以后都不用了。<br>至此，就可以跟管理员步骤类似了，新建文章，generate、deploy等等</p>
 
       
     </div>
