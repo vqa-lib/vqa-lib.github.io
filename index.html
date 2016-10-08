@@ -18,6 +18,8 @@
 
 
 
+  <meta name="google-site-verification" content="Do-yXDtIsVXtGBunzv2vQsqy_EI3EXLQvTJizbFyfYA" />
+
 
 
 
@@ -97,12 +99,12 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     scheme: 'Mist',
-    sidebar: {"position":"left","display":"always"},
+    sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
     duoshuo: {
       userId: 0,
-      author: 'Author'
+      author: '博主'
     }
   };
 </script>
@@ -115,10 +117,19 @@
   <title> 视频质量评价研究实验室 </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="cn">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
 
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-85394910-1', 'auto');
+  ga('send', 'pageview');
+</script>
 
 
 
@@ -172,7 +183,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Home
+            首页
           </a>
         </li>
       
@@ -182,7 +193,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            Categories
+            分类
           </a>
         </li>
       
@@ -192,7 +203,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
-            About
+            关于
           </a>
         </li>
       
@@ -202,7 +213,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archives
+            归档
           </a>
         </li>
       
@@ -212,15 +223,38 @@
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            Tags
+            标签
           </a>
         </li>
       
 
       
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
     </ul>
   
 
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
   
 </nav>
 
@@ -255,8 +289,8 @@
             
               
                 
-                <a class="post-title-link" href="/2016/10/07/hello-world/" itemprop="url">
-                  Hello World
+                <a class="post-title-link" href="/2016/10/08/如何在一天内为你的实验室做一个网站/" itemprop="url">
+                  如何在一天内为你的实验室做一个网站
                 </a>
               
             
@@ -268,15 +302,41 @@
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
             </span>
-            <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-10-07T19:03:18+08:00" content="2016-10-07">
-              2016-10-07
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-10-08T13:22:37+08:00" content="2016-10-08">
+              2016-10-08
             </time>
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/info/" itemprop="url" rel="index">
+                    <span itemprop="name">基本信息</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/10/08/如何在一天内为你的实验室做一个网站/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/08/如何在一天内为你的实验室做一个网站/" itemprop="commentsCount"></span>
+                </a>
+              </span>
             
           
 
@@ -298,18 +358,139 @@
 
       
         
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+          <p><em>author: Hui Zhang</em></p>
+<h2 id="为什么需要搭建一个站点？"><a href="#为什么需要搭建一个站点？" class="headerlink" title="为什么需要搭建一个站点？"></a>为什么需要搭建一个站点？</h2><p>我认为大概有以下两点作用</p>
+<ul>
+<li>宣传与分享。向外界展示自己的研究成果，而不用去在意水平的高低。高水平的研究自然能增光添彩，入门水平的研究也能为后来的新人指明道路。</li>
+<li>记录与传承。每个人在实验室都会呆至少两年，这期间做过的汇报、实验、研究的结果都值得记录下来，这样不仅能为后来人开展扩展性的研究铺好道路，也能避免资料随着人员流动而丢失。
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/10/08/如何在一天内为你的实验室做一个网站/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/10/07/分享一些做课题调查的方法/" itemprop="url">
+                  分享一些做课题调查的方法
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-10-07T23:39:57+08:00" content="2016-10-07">
+              2016-10-07
+            </time>
+          </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/基础知识/" itemprop="url" rel="index">
+                    <span itemprop="name">基础知识</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/10/07/分享一些做课题调查的方法/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/07/分享一些做课题调查的方法/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p><em>author: Hui Zhang</em><br>马上就要毕业了，把自己做课题调查的方法分享一下。</p>
+<p>拿到一个新的研究课题时，可以先去知网之类的地方搜索一些国内硕博士的毕业论文，通过他们的论文可以先对课题有一个初步的认知。但是再往后就建议选择在google scholar上搜索一些外文论文了，当然这里不是随便乱搜索，而是要找领域内的知名期刊、会议论文来看，那么如何知道什么样的期刊、会议是优秀的期刊、会议呢？<br>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/10/07/分享一些做课题调查的方法/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -370,7 +551,7 @@
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
             </span>
-            <span class="post-meta-item-text">Posted on</span>
+            <span class="post-meta-item-text">发表于</span>
             <time itemprop="dateCreated" datetime="2016-10-07T16:41:40+08:00" content="2016-10-07">
               2016-10-07
             </time>
@@ -382,10 +563,10 @@
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">In</span>
+              <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/学术动态/" itemprop="url" rel="index">
+                  <a href="/categories/academic/" itemprop="url" rel="index">
                     <span itemprop="name">学术动态</span>
                   </a>
                 </span>
@@ -398,6 +579,13 @@
           
 
           
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/10/07/ICME2016-学术动态与参会经验分享/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/07/ICME2016-学术动态与参会经验分享/" itemprop="commentsCount"></span>
+                </a>
+              </span>
             
           
 
@@ -419,37 +607,13 @@
 
       
         
-          
-            <h1 id="会议简介"><a href="#会议简介" class="headerlink" title="会议简介"></a>会议简介</h1><p>ICME，全称International Conference on Multimedia and Expo，即国际多媒体与博览会议，又IEEE 计算机学会、电路与系统学会、通信学会、信号处理学会合办，始于2000年，不仅是学术界交流多媒体领域最近研究成果的旗舰论坛，也是工业界展示最新产品或系统的平台。2016年ICME会议于7月11日至7月15日在美国西雅图召开。<br>在本次会议中，我们重点听取了以下内容：</p>
-<h2 id="1、A-Quest-for-Visual-Intelligence-in-Computers-Fei-Fei-Li-Associate-Professor-Stanford-University"><a href="#1、A-Quest-for-Visual-Intelligence-in-Computers-Fei-Fei-Li-Associate-Professor-Stanford-University" class="headerlink" title="1、A Quest for Visual Intelligence in Computers- Fei-Fei Li, Associate Professor, Stanford University"></a>1、A Quest for Visual Intelligence in Computers- Fei-Fei Li, Associate Professor, Stanford University</h2><p>Fei-Fei Li是计算机视觉领域的大牛，由她主导的imagenet图像库是机器视觉领域最大最全的图像库，基于此举办的挑战赛更是吸引全世界的学者参与进来。在本次讲座中，她从视觉引发的物种大爆发讲起，梳理了人们在追寻让计算机更智能地理解图片和视频的道路上所做的努力，也介绍了她所在的实验室在这一领域的最新成果，她也提到很多成果都是以大数据和神经网络（深度学习）作为基础的。</p>
-<p>Fei-Fei Li首先指出，计算机视觉的目标在于Total Scene Understanding，在这一过程中势必涉及到对图片或视频像素的处理，但是简单的measuring pixels不等于understanding scenes，这里面涉及到动物的视觉感知的原理，很多生物实验都给出了证明，比如著名的the kitten experiment，实验中的小猫只会对以前见过的图像做出生理上的反应，这些实验给我们的第一个有关计算机视觉的信息是<br>Message1 learning is the path to visual intelligence<br>这也是如今计算机视觉和机器学习紧密联系在一起的根本原因之一。</p>
-<p>在大的目标下，计算机视觉领域有很多子目标，object recognition就是其中之一，随后Fei-Fei Li就目标识别领域数十年来的发展轨迹做了介绍，包括最新的进展。</p>
-<p>她指出第二个有关计算机视觉的关键信息是<br>Message2 Learning requires Big Data<br>将大数据应用于计算机视觉的典型例子就是imageNet，包含了22000个类别的15000000张图片，而基于该图片库的The image classification challenge中，也是随着卷积神经网络的运用而取得了突破性的进展，这无疑再次强调了机器学习的强大。讲到这里，Fei-Fei Li又引出了object detection的话题，并提出了其中的难点：small and texture less objects are very difficult to detect。</p>
-<p>计算机视觉的第二个子目标是Gist of a scene aka. Image captioning，也就是图像、视频的理解，由计算机自动判断出一个场景包含的内容的主旨，比如输入一张照片，计算就能给出“这是一个穿红衣服的小女孩在玩气球”的结果。这其中就有两个关键问题，how to process image以及how to generate sentence，而这两个问题的答案又是神经网络，事实上，a deep understanding requires knowledge and texture.</p>
-<p>演讲的Slides可以在<a href="http://www.ieee-icme.org/ICME2016/www.icme2016.org/files/plenary/FeiFeiLi.pdf" target="_blank" rel="external">这里</a>下载。</p>
-<h2 id="2、Quality-of-Experience-in-Multimedia-Systems-and-Services"><a href="#2、Quality-of-Experience-in-Multimedia-Systems-and-Services" class="headerlink" title="2、Quality of Experience in Multimedia Systems and Services"></a>2、Quality of Experience in Multimedia Systems and Services</h2><p>本讲座的内容包含三个部分，首先是QoE的总体介绍，然后是DASH中的QoE，最后是一个新的概念-Quality of Life。这部分的内容因为有一定的基础，所以主要以补充为主。<br>比如在第一部分中，我们了解到有一个Qualinet联盟（www.qualinet.eu），致力于推动工业界和学术界对QoE的重视。此外，我们还了解到ISO 9000系列都是与质量管理有关的标准集，MPEG组织也有自己的一套主观质量评价标准，ITU-FSG12是与QoE有关的标准，我们还了解到QoE评价的关键在于collect users feedback，这也体现在第二部分中的crowd source QoE evaluation中。<br>QoE的modeling总结如下图<br><img src="http://img.blog.csdn.net/20160722224555564?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""></p>
-<p>事实上，QoE也不是纸上谈兵，已经有公司切实地将其付诸于行动了，如下例<br><img src="http://img.blog.csdn.net/20160722224621892?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""></p>
-<p>  比较有意思的是，因为切换频率同样会严重影响QoE，所以我们看到的分片时长最短就是2s，这也是因为再短的分片时长会导致频繁的切换，给人闪烁的感觉。</p>
-<h2 id="3、Making-the-Virtual-Real-–-The-future-of-Augmented-and-Virtual-Reality"><a href="#3、Making-the-Virtual-Real-–-The-future-of-Augmented-and-Virtual-Reality" class="headerlink" title="3、Making the Virtual Real – The future of Augmented and Virtual Reality"></a>3、Making the Virtual Real – The future of Augmented and Virtual Reality</h2><p>这一讲座是由谷歌、微软、Valve的技术人员带来的有关VR、AR的内容。<br>VR、AR的核心在于为用户提供沉浸式的体验，这种体验还包括与周边环境的交流，是一种增强的感知体验。除去一些科普性的内容之外，谈到了一些业界面临的挑战，比如头戴式设备的sensing、如何与现实世界co-exist、安全问题、静态和动态场景重建问题、人体模型重建问题、低功耗低成本问题。</p>
-<h2 id="4、Best-Student-Paper-Award-Session"><a href="#4、Best-Student-Paper-Award-Session" class="headerlink" title="4、Best Student Paper Award Session"></a>4、Best Student Paper Award Session</h2><p>这部分是最佳学生论文奖的竞赛部分，共有四位提名者，都是来自中国的学生，非常自豪，但是不得不说中国学生的英文演讲水平真的有待提高啊~<br>第一篇提名论文是关于车辆识别的，本质还是检索，总结起来就是既有简单的特征（纹理、颜色等）检索，又有基于深度学习的更为复杂的high level检索，很值得学习。</p>
-<p><img src="http://img.blog.csdn.net/20160722224918578?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""></p>
-<p>第二篇的内容比较偏，略过。<br>第三篇提名论文是关于质量评价的，很有意思，不同于以往的算法都是将受损图像和最优质量图像对比得出评价结果，这篇论文是和原始图片的最差质量比较，<br><img src="http://img.blog.csdn.net/20160722225435316?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""><br><img src="http://img.blog.csdn.net/20160722225709114?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""><br><img src="http://img.blog.csdn.net/20160722225735864?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""><br>从压缩到最差级别的图像中提取出了一个所谓的pseudo structural similarity的概念，利用这一指标进行评价<br><img src="http://img.blog.csdn.net/20160722225924412?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""><br><img src="http://img.blog.csdn.net/20160722225937052?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""><br>而且他们的评价算法进行一些优化之后实现以19fps的速度对4k分辨率的图像进行质量评价。</p>
-<p>第四篇提名论文是对HEVC编码器的优化，用贝叶斯分类算法做帧内编码的决策，贝叶斯分类也是很多分类算法的基础，在数据挖掘等领域也用的很多，也很有启发性。</p>
-<h2 id="5、bitmovin-Grand-Challenge-on-Dynamic-Adaptive-Streaming-over-HTTP"><a href="#5、bitmovin-Grand-Challenge-on-Dynamic-Adaptive-Streaming-over-HTTP" class="headerlink" title="5、bitmovin Grand Challenge on Dynamic Adaptive Streaming over HTTP"></a>5、bitmovin Grand Challenge on Dynamic Adaptive Streaming over HTTP</h2><p>这一部分是由bitmovin公司主办的挑战赛，需要参赛者设计DASH的自适应算法，并且在指定的数据集（QoMEX、Qualinet Dataset）上进行测试。有三篇文章提名，其中两篇来自中国，都是北大的学生，第一篇利用了马尔科夫模型，第二篇基于控制论，在客户端设计了动态变化的buffer，还利用了fast-start batch downloading的技术，加快MPD和初始seg的下载。两篇都规规矩矩，但是做汇报的学生态度感觉一般，不严肃不认真。<br>第三篇是将DASH的自适应机制和人口出生率死亡率做了一个类比然后提出了一个算法，非常新颖，<br><img src="http://img.blog.csdn.net/20160722230110055?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""><br>但是因为主讲者是一位黑人朋友，口音比较重，本来概念就比较新颖，再加上理解成本，基本没怎么听懂，准备详细阅读一下他的论文后再做整理。<br>需要注意的是，这个grand challenge明年还会举办~<br><img src="http://img.blog.csdn.net/20160722230147819?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""></p>
-<h2 id="6、Ultra-HD-–-Roadmap-of-High-Qualiry-A-V-Content-to-the-Home"><a href="#6、Ultra-HD-–-Roadmap-of-High-Qualiry-A-V-Content-to-the-Home" class="headerlink" title="6、Ultra HD – Roadmap of High Qualiry A/V Content to the Home"></a>6、Ultra HD – Roadmap of High Qualiry A/V Content to the Home</h2><p>这是一个工业论坛，由来自Dolby、Sony、LG的技术人员给出关于超高清内容、HDR内容的制作、传输等方面的讲座。其实这和传媒大学所谓的特色-广播电视工程专业非常相符</p>
-<p>4k的规格在这里简单提一下，</p>
-<blockquote>
-<ul>
-<li>4K-UHDTV-1 standard 8 Megapixels 4k </li>
-<li>4k-UHDTV-2 standard 33Mefapixels 8k</li>
-</ul>
-</blockquote>
-<p>这里HDR的内容比较值得深入研究，比如更宽的亮度和色度范围可以带来true black和true white，EOTF、perceptual quantizer、8bit\14bit gamma、SMPTE2084等等内容，都很陌生，但也很有兴趣，其实不只是客厅，移动端上的安卓最新版也提到了对HDR的支持。<br>其实总结起来下一代的客厅娱乐需要考虑的是三大因素：nits、bits、bucks（成本），这一总结很有意思。<br><img src="http://img.blog.csdn.net/20160722230758970?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""><br><img src="http://img.blog.csdn.net/20160722230843674?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center" alt=""><br>讲座的第二部分是HDR production overview，HDR的内容制作是一个缓慢发展的领域，其中的一个点就是color depth的提升，从8bit到10bit再到12bit。同时包含了HDR内容传输的解决方案。<br>讲座的第三部分是显示技术，即rendering better pixels，其实也有点老生常谈，无非就是更优的亮度、对比度、观看角度。当然也有一些专为人眼视觉系统优化的技术，比如chroma subsampling、new pixel structure（还可以提升power utilization efficiency），sub-pixel rendering等等。<br>讲座的最后部分是HDR dynamic metadata，由dolby提出，可以track内容的变化，可以做tone\color volume mapping<br>HDR同样面临一些挑战，他大约会导致25%的码率增幅，所以码率可能会成为一个挑战，而dolby vision技术使用metadata可以在HD或4K内容上带来HDR体验，考虑到码率问题，也许HD+HDR就足够了。还有一个partial HDR的概念也值得关注。</p>
-<h2 id="7、Packet-Video-Workshop2016-–-Coding-for-Augmented-and-Virtual-Reality"><a href="#7、Packet-Video-Workshop2016-–-Coding-for-Augmented-and-Virtual-Reality" class="headerlink" title="7、Packet Video Workshop2016 – Coding for Augmented and Virtual Reality"></a>7、Packet Video Workshop2016 – Coding for Augmented and Virtual Reality</h2><p>由微软的技术人员带来的VR和AR内容编码方法讲座。讲座最开始先科普了一下VR和AR在capture技术上的区别，前者是inside out，后者则是outside in（关于AR capture技术的介绍，可以参考siggraph中MS的演示视频，在youtube上应该也能搜到，很有意思；还有，AR是不会产生motion sickness的），同时还介绍了一下最新的holoportation技术，非常astonishing，可以将不在同一地点的人的实时虚拟模型进行传送，并且可以互动。<br>至于具体的编码方法，说实话，因为涉及到很多数学东西，没有怎么听懂，但还是能发现和传统视频编码的套路类似，去高频、留低频，即可实现coding、prediction、interpolation，只不过对应VR、AR特殊的应用场景会有各种映射、point cloud、mesh等等内容。有兴趣详细了解的朋友，可以去搜索相应的论文。<br>不过VR|AR内容的编码还有一些问题，比如缺乏dataset、reference codec以及distortion codec，不过就像过去的coding method，面包会有的，一切都会有的。此外，针对VR、AR内容的质量评价，需要注意的是PSNR不再有效，这也是as a result of mesh，一点点的moving动作就会导致画面大大不同，PSNR也会剧变，这里面其实也能看到VR、AR内容与传统视频内容的一大区别。</p>
-<p>此外再提一点，在另外一个讲座”Mulsemedia”-based Collaborative Mixed/Virtual Reality Environments中，提到了VR中的一些更细节的问题，比如camrea标定（使用棋盘格，对齐左右眼的RGB data和deep information），动作recognition（不同关节、左右识别，因为user may not always facing camera）、deep scale（也即是在camrea中实现近大远小的基本物理原理）、noise removal、depth image based meshing point cloud等等。</p>
-<h2 id="8、DASH-special-session"><a href="#8、DASH-special-session" class="headerlink" title="8、DASH special session"></a>8、DASH special session</h2><p>这部分就是各个有关dash的论文的presentation了，总结起来，有这么几个研究方向，一个是自适应算法、一个是针对dash特点做的编解码器优化、一个是信道传输上的带宽估计和利用率优化，最后一个就是服务器端的优化。<br>8.1 Efficient Lightweight Video Packet Filtering for Large-Scale Video Data Delivery<br>这篇文章的主题是讨论如何coping with bandwidth shortage?给出的解决方案就是blocking some frames to match avail. Bandwidth,那么这其中就涉及一个filtering strategy了，同样是一个最优化问题，given loss ratio, block less important frames to max. QoE.具体来说是在container中加上metadata，这一metadata contain important score for every frame,这个score是根据frame type\size\dependency\distortion来计算的。其中的distortion是用一种chain mode来计算的，最后的验证是用MS-SSIM来作为指标的。<br>8.2 Low Delay MPEG DASH Streaming over the WebRTC Data Channel<br>其实就是用webrtc的channel来carry dash video session, change pull mode to push mode，原本的dash传输中的delay问题主要包含两个部分，一个是segment dur，一个是TCP delay，这里很大程度上是因为TCP的slow start策略，而通过使用webrtc channel，就能消除这部分TCP delay，从而达到low delay的目标。<br>8.3 DASH Sub-Representation with Temporal QoE Driven Layering<br>这一篇很有新意，普遍来说大家都认为DASH的sub-rep没什么用，这篇论文就给我们展示了它的用处，详细的内容我还没理解透，大致来说也是给不同的帧加上important factor，给更重要的帧更高的优先级。<br>8.4 Adaptive Media Playout Assited Rate Adaptation Scheme for HTTP Adaptive Streaming over LTE System<br>简单来说是两个步骤：一是guarantee playback continuity，二是utilize residual resource<br>8.5 Boosting Decoding Quality Performance in DASH-based Streaming Frameworks<br>再一次的，给不同的帧不同的重要级别，不过在这个判断重要性的过程中应用到了machine learning的内容。整篇论文的内容更多的是关于codec characteristic的，以PSNR和SSIM作为评价指标，基于HEVC做的实现，只增加解码端的复杂度来获得总体质量上的提升。<br>8.6 History-based Throughput Prediction with Hidden Markov Model in Mobile Networks<br>使用隐马尔科夫模型做带宽预测。传统的预测模型基于RTT、lossrate，不考虑历史流量，而history-based模型基于stochastic prediction model和GMM-HMM。在具体的计算过程中还涉及到forward-backward algo和viterbi model。最后的验证试验不仅在real network中进行，还在各种各样的network traces中进行。这一点很值得学习。<br>8.7 A Dynamic and Complexity Aware Cloud Scheduling Algorithm for Video Transcoding<br>是基于Apach Hadop的云转码的效率提升算法，主要是任务调度算法，传统的任务调度算法有FIFO、FAIR Schedule和capacity schedule。这里做的improvement就是根据复杂度决定优先级，复杂度有转码视频的帧数决定。根据cpu utilization的情况动态改变云转码系统中的slot number。还有一个转码时间的优化方案：将大文件以48-64MB为单位切割为segment，分大块和小块调度下载优先级，类似于迅雷的空闲下载。作者还指出，这样的调度算法也可以用于DASH的live streaming框架。</p>
-
-          
+          <p><em>author: Hui Zhang</em></p>
+<h1 id="会议简介"><a href="#会议简介" class="headerlink" title="会议简介"></a>会议简介</h1><p>ICME，全称International Conference on Multimedia and Expo，即国际多媒体与博览会议，又IEEE 计算机学会、电路与系统学会、通信学会、信号处理学会合办，始于2000年，不仅是学术界交流多媒体领域最近研究成果的旗舰论坛，也是工业界展示最新产品或系统的平台。2016年ICME会议于7月11日至7月15日在美国西雅图召开。<br>
+          <div class="post-more-link text-center">
+            <a class="btn" href="/2016/10/07/ICME2016-学术动态与参会经验分享/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
         
       
     </div>
@@ -510,7 +674,7 @@
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
             </span>
-            <span class="post-meta-item-text">Posted on</span>
+            <span class="post-meta-item-text">发表于</span>
             <time itemprop="dateCreated" datetime="2016-10-07T12:25:55+08:00" content="2016-10-07">
               2016-10-07
             </time>
@@ -522,10 +686,10 @@
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
-              <span class="post-meta-item-text">In</span>
+              <span class="post-meta-item-text">分类于</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/基本信息/" itemprop="url" rel="index">
+                  <a href="/categories/info/" itemprop="url" rel="index">
                     <span itemprop="name">基本信息</span>
                   </a>
                 </span>
@@ -538,6 +702,13 @@
           
 
           
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/10/07/欢迎来到视频质量评价研究实验室/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/07/欢迎来到视频质量评价研究实验室/" itemprop="commentsCount"></span>
+                </a>
+              </span>
             
           
 
@@ -629,7 +800,7 @@
       <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
-               src="/images/avatar.gif"
+               src="https://avatars2.githubusercontent.com/u/11029233?v=3&s=466"
                alt="视频质量评价研究实验室" />
           <p class="site-author-name" itemprop="name">视频质量评价研究实验室</p>
           <p class="site-description motion-element" itemprop="description"></p>
@@ -637,16 +808,16 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">3</span>
-              <span class="site-state-item-name">posts</span>
+              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">2</span>
-                <span class="site-state-item-name">categories</span>
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">分类</span>
               </a>
             </div>
           
@@ -654,8 +825,8 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">2</span>
-                <span class="site-state-item-name">tags</span>
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">标签</span>
               </a>
             </div>
           
@@ -699,11 +870,11 @@
 </div>
 
 <div class="powered-by">
-  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
-  Theme -
+  主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
     NexT.Mist
   </a>
@@ -782,15 +953,165 @@
 
   
 
+  
+    
+  
 
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"vqa-lib"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
 
+  
+    
+    <script src="/vendors/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="/js/src/hook-duoshuo.js"></script>
   
 
 
 
 
+
+
   
   
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
 
   
 
